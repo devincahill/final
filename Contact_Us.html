@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Durham House of Pets</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="CSS.css" rel="stylesheet" type="text/css">
+	<style>
+	
+	</style>
+	</head>
+	<body>
+	<div id="wrapper">
+			<div id="callout">
+				<p style="text-align: center; padding: 0px; font-size: 55px;">Contact Us</p>
+			</div>
+			<header>
+				<center>
+				<img src="petbanner.jpg" width="92%" height="235">
+				</center>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="About_Us.html">About Us</a></li>
+					<li><a href="Our_Team.html">Our Team</a></li>
+					<li><a href="index2.html">Products</a></li>
+					<li><a href="Policies.html">Policies</a></li>
+					<li class="active"><a href="Contact_Us.html">Contact Us</a></li>
+				</ul>
+			<div class="clearfix"></div>
+			</nav>
+			<p style="text-align: center; font-size: 40px;">Come join the fun!</p>
+			<div class="banner">
+				<center>
+				<h3>Head Office Location</h3>
+    			<script src = "https://maps.googleapis.com/maps/api/js"></script>
+					<script>
+							function loadMap() {
+							var mapOptions = {
+							center:new google.maps.LatLng(43.134707, -70.926372), zoom:12,
+							mapTypeId:google.maps.MapTypeId.ROADMAP
+							};
+							var map = new google.maps.Map(document.getElementById("sample"),mapOptions);
+							}
+							var marker = new google.mapsMarker({
+								position: uluru,
+								map: map
+							});
+					</script>
+				<body onload = "loadMap()">
+				<div id = "sample" style = "width:570px; height:580px;"></div>
+				</center>
+				<center>
+				<h3>Regional Office Locations</h3>
+				</center>
+			</div>
+				<div class="section">
+					<p>East Coast Regional Office<br>
+					<p><b>603-716-5389</b><br>
+					<p><b>Fax-603-345-8234</b><br>
+					<p>Head Office Phone Location<br>
+					37 Main Street<br>
+					Durham, NH 03824<br>
+				</div>
+				<div class="section">
+					<img align=top src="durham.jpg" width="275" height="210">
+					<img align=bottom src="sanfran.jpg" width="275" height="210">
+				</div>	
+				<div class="section">
+					<p>West Coast Regional Office<br>
+					<p><b>415-831-2700 </b><br>
+					<p><b>Fax-415-379-3325</b><br>
+					<p>Head Office Phone Location<br>
+					718 Steiner Street<br>
+					San Francisco, CA 94117<br>
+				</div>
+		<footer>
+			<div class="section">
+				<p><b>Durham House of Pets</b></p>
+				<p>Head Office Phone Number<br>
+				<p><b>603-716-5389</b><br>
+				<p><b>Fax-603-345-8234</b><br>
+				<p>Head Office Phone Location<br>
+				37 Main Street<br>
+				Durham, NH 03824<br>
+				<a href="https://accounts.google.com/">Durhamhouseofpets@gmail.com</p>
+			</div>
+			<div class="section">
+				<p>Connect With Us!</p>
+				<ul>
+					<li><a href="https://www.facebook.com/"><img class="radius" src="fb.png"width="90" height="90"/></a></li>
+					<li><a href="https://twitter.com/"><img class="radius" src="tw.png"width="90" height="90"/></a></li>
+					<li><a href="https://www.instagram.com/"><img class="radius" src="ig.png"width="90" height="90"/></a></li>
+				</ul>
+			</div>
+			<div class="section">
+				<img <a href="contact us.html" src="oldmananddog.jpg" width="300" height="200"/></a>
+				<p style="text-align: center; padding: 0px; font-size: 15px; ">"Philip Smith with Duke III., 2004"</p>
+			</div>
+	
+		</footer>
+	</div>
+		<p style="text-align: center; padding: 0px;">&#169;Copyright - Durham House of Pets, 2017.</p>
+	</body>
+
+</html>
